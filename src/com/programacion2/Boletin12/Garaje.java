@@ -16,12 +16,12 @@ import javax.swing.JOptionPane;
         public Garaje() {
         }
 
-        public Garaje(boletin_12.Coches coche){
+        public Garaje(com.programacion2.Boletin12.Coches coche){
             Coche=coche;
         }
 
 
-        public Garaje(float tiempo,boletin_12.Coches coche) {
+        public Garaje(float tiempo,com.programacion2.Boletin12.Coches coche) {
             this.tiempo = tiempo;
             Coche = coche;
         }
@@ -31,7 +31,7 @@ import javax.swing.JOptionPane;
             this.tiempo = tiempo;
         }
 
-        public void setCoche(boletin_12.Coches Coche) {
+        public void setCoche(com.programacion2.Boletin12.Coches Coche) {
             this.Coche = Coche;
         }
 
@@ -46,7 +46,7 @@ import javax.swing.JOptionPane;
             return tiempo;
         }
 
-        public boletin_12.Coches getCoche() {
+        public com.programacion2.Boletin12.Coches getCoche() {
             return Coche;
         }
 
